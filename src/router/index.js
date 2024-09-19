@@ -41,7 +41,8 @@ const router = createRouter({
       path: '/login',
       component: () => import('@/views/login/LoginPage.vue')
     }
-  ]
+  ],
+  base:'/vue3-article-admin-view/'
 })
 
 
